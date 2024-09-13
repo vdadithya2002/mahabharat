@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto"
+        tools:context=".day3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day 3 – Use of Celestial Weapons"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day3"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhishma arranged the Kaurava forces in the formation of an eagle with himself leading from the front, while Duryodhana’s forces protected the rear. The Pandavas countered this by using the crescent, the shape of a half-moon with the right horn commanded by Bhima, Yudhishthira holding the center, and Arjuna managing the left horn. All morning, the armies fought and none gave way.
+
+Abhimanyu and Satyaki combined to defeat the Gandhara forces of Shakuni. Bhima and his son Ghatotkacha attacked Duryodhana in the rear. Bhima’s arrows hit Duryodhana, who swooned in his chariot. His charioteer immediately drove them out of danger.
+
+Duryodhana’s forces, however, saw their leader fleeing the battlefield and soon scattered. Bhishma soon restored order and Duryodhana returned to lead the army. He was angry at Bhishma, however, at what he saw as leniency towards the five Pandava brothers and spoke harshly to his commander.                                                   The Kauravas concentrated their attack on Arjuna’s position. Arjuna’s chariot was soon covered with arrows and javelins. Arjuna, with amazing skill, built a fortification around his chariot with an unending stream of arrows from his bow.
+
+In the afternoon, Bhishma invoked celestial Astras and mowed down the Pandava army on all sides. Krishna urged Arjuna, saying, “The hour has come when you must hold to your promise to slaughter the Kaurava army and fight Bhishma. Behold, your army is being destroyed by him alone.” He drove the chariot to where Bhishma’s chariot stood.                                                                                          Beholding him advancing, the Pandava host rallied, while Bhishma covered the onrushing chariot with his arrows. Arjuna took Gandiva and sent forth arrows that cut the grandsire’s bow in two. As Bhishma seized and strung another that too was cut down.
+
+Bhishma, stung by this unfair charge, fell on the Pandava army with renewed vigor. It was as if there were more than one Bhishma on the field. Bhishma sent forth arrows against Arjuna. Krishna, with great skill, avoided them but many still struck him and Arjuna.
+
+Arjuna attacked Bhishma trying to restore order again and engage in a fierce duel. Arjuna drew an Astra causing a river of blood from the Kaurava army. Every other sound was silenced by his bow. As the sunset, the Kauravas withdrew, Bhishma and Drona with them, and the Pandavas triumphed that day."
+
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day4"
+                android:text="DAY 4"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

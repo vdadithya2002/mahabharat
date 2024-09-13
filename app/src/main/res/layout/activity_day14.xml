@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day 14 – Karna loses Vasavi Shakti because of Gathokacha"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day14"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="The Kauravas rally around King Jayadratha and keep Arjuna at bay after realizing that Arjuna will kill himself if they protect Jayadratha till sundown. Drona challenges Arjuna to distract him and they fight relentlessly, without managing to kill each other. Karna, Drona, Ashwattama, and Duryodhana, all surround Arjuna to keep him from King Jayadratha. The fearful fight raged until the sun approached the western hills. Krishna, anxious that Arjuna’s vow should be kept, drives the chariot forward by leaving Drona behind. Krishna said to Arjuna, “You cannot kill Jayadratha till you have slain these warriors. I shall eclipse the sun in darkness so that they will think it has set and been less careful.” Through his divine power, he eclipses the son, creating darkness and deceiving the Kauravas, who part way, thinking Arjuna must now take his life. (In another story, Lord Krishna raised his Sudarshan Chakra to cover the sun, faking a sunset) Arjuna fixes an Astra and taking aim at Jayadratha, lets it loose. Jayadratha’s head is severed just as the eclipse ends and the sun begins to shine again. Seeing that they were deceived, the Kauravas weep in sorrow and anger. Duryodhana, distraught, orders his army to fight through the night, and the two hosts lighting torches, continue their battle. But so tired are they that men are killed while they fell asleep, and many were killed by their friends in a daze. The battle continued past sunset. Arjuna asked Bhima to decimate Vikarna, but Bhima refused to because Vikarna had defended the Pandavas during the Draupadi Vastrapaharanam. Bhima and Vikarna showered arrows on each other. Later Bhima threw his mace at Vikarna, killing him. The muscular Pandava was devastated and mourned his death saying he was a man of Dharma and it was a pity how he lived his life. Drona killed Vrihatkshatra, the ruler of Kekaya, and Dhrishtakethu, the ruler of Chedi. Dushasana’s son, Durmashana, was slain by Bhima in a duel. During this time, Gathokacha, the rakshasa son of Bhima wreaks havoc among the Kaurava, until he is felled by the Vasavi Shakti, a weapon given to Karna by Indra. Karna was planning to use the Vasavi Shakti against Arjuna However, Duryodhana, desperate to end Gathokacha’s carnage pleads with Karna to use it. Now Karna loses the weapon since it can be used only once and returns to Indra. Then the two armies take a break and call a truce till the moon rises and rests upon the battlefield."
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day15"
+                android:text="DAY 15"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

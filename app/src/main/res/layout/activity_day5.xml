@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day 5 – Bhima rescued Satyaki"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day5"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When the battle resumed on the fifth day, the slaughter continued. The Pandava army again suffered against Bhishma’s attacks. Arjuna fought and killed thousands of soldiers sent by Duryodhana to attack him. Bhima engaged in a fierce duel with Bhishma, which remained inconclusive. The unimaginable carnage continued during the ensuing days of the battle.                                             Satyaki bore the brunt of Drona’s attacks and could not withstand them. Bhima drove by and rescued Satyaki."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day6"
+                android:text="DAY 6"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

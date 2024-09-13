@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".day2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Day 2 - Great Losses of Kaurava army"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day2"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With confidence, the Kaurava army faced the Pandavas, and the second day of the war commenced. Arjuna realized that something had to be done quickly to reverse Pandava’s loss and decided to try killing Bhishma. Sri Krishna skillfully located Bhishma’s chariot and steered Arjuna toward him.
+
+Arjuna tried to engage Bhishma in a duel, but the Kaurava soldiers guarded Bhishma to protect him and attacked Arjuna. Arjuna and Bhishma fought a fierce battle that raged for hours.
+
+Drona and Dhrishtadyumna similarly engaged in a duel in which Drona defeated Dhrishtadyumna and had to be rescued by Bhima’s intervention.
+
+
+
+Duryodhana sent the troops of Kalinga to attack Bhima, including the King of Kalinga, and lost their lives at his hands. Seeing this, Bhishma immediately came to relieve the battered Kalinga forces, and Satyaki, who was assisting Bhima, shot at Bhishma’s charioteer and killed him.
+
+This resulted in Bhishma’s horses losing their control and carried Bhishma away from the battlefield. Hence, The Kaurava army suffered great losses at the end of the second day and was considered defeated."
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day3"
+                android:text="DAY 3"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

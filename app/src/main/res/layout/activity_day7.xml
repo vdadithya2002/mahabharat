@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day7">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/warphoto">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Day 7 – Victory of the Kauravas"
+                    android:textSize="25sp"
+                    android:paddingBottom="8dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/mangiolaregular"
+                    android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/day7"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="16dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The terrific carnage continued and Drona slew Sankha, a son of Virata. The day’s battle ended with the victory of the Kauravas."
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:paddingBottom="16dp"
+                    android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#34040404"
+                    android:onClick="war"
+                    android:text="Back"
+                    android:fontFamily="@font/trajanprobold"
+                    android:textColorLink="#FFFFFF"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#34040404"
+                    android:onClick="day8"
+                    android:text="DAY 8"
+                    android:fontFamily="@font/trajanprobold"
+                    android:textColorLink="#FFFFFF"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="10dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+</ScrollView>

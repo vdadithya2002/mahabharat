@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/warphoto">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="Day 1 - Pandavas suffered heavy losses"
+                android:textSize="25sp"
+                android:paddingBottom="8dp"
+                android:textColor="#000000"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/mangiolaregular"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/day1"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:paddingBottom="16dp"
+                android:text="The horrendous war began with Bhishma leading all of the Kaurava armies, rushing with their raised flags against the Pandavas. With Bhima leading the Pandava army stood against them with cheering hearts. Dushasana fought Nakula, attempting to strike him with many an arrow, but Nakula cut down these arrows, the standard and the bow of his enemy. Yudhishthira fought Shalya, while Drishtadyumna sought Drona in battle. The King of Panchala fought the King of Sind and the battle between them was fierce and terrible. The horrendous war began with Bhishma leading all of the Kaurava armies, rushing with their raised flags against the Pandavas. With Bhima leading the Pandava army stood against them with cheering hearts. Dushasana fought Nakula, attempting to strike him with many an arrow, but Nakula cut down these arrows, the standard and the bow of his enemy. Yudhishthira fought Shalya, while Drishtadyumna sought Drona in battle. The King of Panchala fought the King of Sind and the battle between them was fierce and terrible. Bhishma went through the Pandava army wreaking havoc wherever he went, seeing that Draupadi’s five sons the twins Nakula and Sahadeva, and Abhimanyu, rushed against the Kaurava army and directly attacked the commander of the Kaurava forces straight at Bhima, tearing them with their arrows. Duryodhana and his brothers surrounded Bhima and the young warriors couldn’t match the prowess of Bhishma and were defeated. On that first day Uttara, Virata’s son – who was driven by Arjuna – was struck by Shalya, King of Madra, and was killed. Krishna consoled the distraught Yudhishthira, having lost his son in the battle, saying that eventually, victory would be his. When the battle commenced, The Pandavas suffered heavy losses and were defeated at the end of the first day."
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="20dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#34040404"
+                    android:onClick="war"
+                    android:text="Back"
+                    android:fontFamily="@font/trajanprobold"
+                    android:textColorLink="#FFFFFF"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#34040404"
+                    android:onClick="day2"
+                    android:text="DAY2"
+                    android:fontFamily="@font/trajanprobold"
+                    android:textColorLink="#FFFFFF"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="10dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+</ScrollView>
+

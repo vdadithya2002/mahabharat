@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kauravas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="The Kauravas"
+            android:textColor="#000000"
+            android:textSize="57dp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/kauravas"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Duryodhana (eldest of the Kauravas)"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/duryodhana"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:text="Duryodhana also known as Suyodhana, is the primary antagonist in the Hindu epic Mahabharata. He was the eldest of the Kauravas, the hundred sons of the king Dhritarashtra and his queen Gandhari. Being the first-born son of the king, he was the crown prince of the Kuru Kingdom and its capital of Hastinapura, often forced into ceding the title to his cousin Yudhishthira, who was one of the Pandava brothers and older than he. Aided by his maternal uncle Shakuni, Duryodhana tricked the Pandavas into surrendering their kingdom and forced them to go into exile. Later, Duryodhana waged the Kurukshetra War against his cousins and was helped by the warriors Bhishma, Drona and Karna. On the eighteenth day of the war, he was killed by Bheema. Duryodhana used his greater skill in wielding the mace to defeat his opponents. He was also an extremely courageous warrior but his greed and arrogance were the two qualities said to have led to his downfall."
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Dushasana"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/dushashan"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:text="Dushasana also spelled Duhshasana, Dussasana or Duhsasana, also known as Sushasana, is an antagonist in the Hindu epic Mahabharata. He was second eldest among the Kaurava princes and the younger brother of Duryodhana. Dushasana's jealousy and herd mentality were the two qualities said to have led to his downfall in the Mahabharata."
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="The other 99 Kaurava brothers"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/myImageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/rem99brothers"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:text="The 99 Kaurava brothers other than Duryodhana, Dushasana, Vikarna, and Chitrasena include: Upachitran, Suvarma, Dussaha, Jalagandha, Sama, Saha, Vindhaa, Anuvindha, Durdharsha, and Subahu. The Kauravas were the sons of King Dhritarashtra and his wife, Gandhari. According to the Mahabharata, Gandhari received a boon from the sage Dwaipayana and gave birth to a lump that was cut into 101 pieces and placed into pots with butter. The pots produced 100 sons and a daughter named Dussala."
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Dhritarashtra (father of the Kauravas)"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/myImageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/dhritharashtra"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:text="Dhritarashtra was a Kuru king, and the father of the Kauravas in the Hindu epic Mahabharata. He was the King of the Kuru Kingdom, with its capital at Hastinapura. He was born to Vichitravirya's first wife, Ambika. Dhritarashtra was born blind. He fathered one hundred sons and one daughter, Dushala, by his wife, Gandhari and a son, Yuyutsu, by his wife's maid. These children, including the eldest son Duryodhana, but not including Yuyutsu and Dushala, came to be known as the Kauravas."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Gandhari (mother of the Kauravas)"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/myImageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gandhari"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:text="Gandhari is a prominent figure in the Hindu epic the Mahabharata. She was the princess of the Gandhara Kingdom and wife of Dhritrashtra, the blind king of Kuru. In the epic, she is depicted with a blindfold, which she wore in order to live like her blind husband. Due to divine boons, she became the mother of a hundred sons, the Kauravas, who are the primary antagonists of the epic. She also had a daughter named Duhsala. Following the Kurukshetra War and the end of her hundred sons, Gandhari cursed Krishna, leading to the destruction of his Yadu Dynasty."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34040404"
+            android:onClick="characters"
+            android:text="Back"
+            android:fontFamily="@font/trajanprobold"
+            android:textColorLink="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6"
+            app:layout_constraintVertical_bias="0.821"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+</ScrollView>

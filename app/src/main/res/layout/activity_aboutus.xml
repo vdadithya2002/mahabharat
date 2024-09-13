@@ -1,0 +1,109 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#BF9C27B0"
+            android:paddingBottom="8dp"
+            android:text="About us"
+            android:fontFamily="@font/trajanprobold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="57dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#60413243"
+            android:paddingBottom="8dp"
+            android:text="Dept : AI-DS"
+            android:fontFamily="@font/trajanprobold"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/myimageView_goutham"
+            android:layout_width="wrap_content"
+            android:layout_height="347dp"
+            android:layout_marginTop="12dp"
+            android:background="#5C454242"
+            android:scaleType="centerCrop"
+            android:src="@drawable/goutham" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#60413243"
+            android:paddingBottom="8dp"
+            android:text="B.Sai Goutham"
+            android:fontFamily="@font/trajanprobold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/myimageView_aditya"
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:layout_marginTop="12dp"
+            android:background="#5C454242"
+            android:src="@drawable/aditya" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#60413243"
+            android:paddingBottom="8dp"
+            android:text="P.Adithya"
+            android:fontFamily="@font/trajanprobold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/myimageView_akhil"
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:background="#5C454242"
+            android:src="@drawable/akhil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="15dp"
+            android:background="#60413243"
+            android:paddingBottom="8dp"
+            android:text="M.Akhil"
+            android:fontFamily="@font/trajanprobold"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

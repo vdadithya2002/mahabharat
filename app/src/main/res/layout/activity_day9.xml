@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day 9 – Bhishma advice Yudhishthira to use Shikhandi as a shield"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day9"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Krishna saw that Bhishma’s arrows were again slaughtering the Pandava’s army, while Arjuna was fighting mildly, out of respect for Bhishma, whose heart was not in the battle as he did not like the idea of attacking his grand-uncle. During the battle, Bhishma killed numerous soldiers of Arjuna’s armies.
+
+Seeing the vigor of Bhishma in slaying his own people, Krishna was afraid that Bhishma would finish the battle all alone. He was overwhelmed by annoyance at the apparent inability of Arjuna to defeat Bhishma who was still not clear in his head. Krishna rushed towards the Kaurava commander, the wheel of a fallen chariot in his hands, eager to slay him.                                                                                   Bhishma laid down and surrendered in front of Krishna with his arms and stood ready to die at the hands of the Lord. However, Arjuna ran after him and threw his arms at his feet to stop him. “Stop, O Krishna! Remember your promise not to pick up a weapon, do not let men say you are a liar. I by my weapons, by the truth, by my own deeds, will destroy our foes. The task is mine.” Hearing this, Krishna, still angry, mounted the car and took up the reins again.                                                                                                               Bhishma arrays the troops as a hollow square and wreaks much havoc upon the Pandava army. Realizing that the war could not be won as long as Bhishma was standing, Krishna suggested the strategy of placing a eunuch in the field to face him.
+
+Some sources, however, state that it was Yudhishthira who visited Bhishma’s camp at night asking him for help and seeking his advice on how they may slay him. Bhishma tells them to use Shikhandi as a shield, for he would never raise his bow upon a eunuch."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day10"
+                android:text="DAY 10"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="colorPrimary1">#1E1E1E</color>
+    <color name="colorPrimaryVariant">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryColorVariant">#3700B3</color>
+    <color name="onPrimaryColor">#FFFFFF</color>
+
+    <!-- light first color -->
+    <color name="lightprimary">#6200EE</color>
+    <color name="lightprimaryvariant">#3700B3</color>
+    <color name="lightonprimary">#FFFFFF</color>
+
+    <!-- Light Secondary color -->
+    <color name="lightsecondaryColor">#03DAC6</color>
+    <color name="lightsecondaryColorVariant">#018786</color>
+    <color name="lightonSecondaryColor">#000000</color>
+
+    <!-- Light Background colors -->
+    <color name="lightbackgroundColor">#FFFFFF</color>
+    <color name="lightonBackgroundColor">#000000</color>
+
+    <!-- LIGHT Surface colors -->
+    <color name="lightsurfaceColor">#FFFFFF</color>
+    <color name="lightonSurfaceColor">#000000</color>
+
+    <!-- LIGHT Button colors -->
+    <color name="lightbuttonBackground">#6200EE</color>
+    <color name="lightbuttonText">#FFFFFF</color>
+    <color name="lighttextButtonColor">#6200EE</color>
+
+    <!-- LIGHT Text colors -->
+    <color name="lighttextPrimary">#000000</color>
+    <color name="lighttextSecondary">#616161</color>
+
+    <!-- DARK Primary color -->
+    <color name="darkprimaryColor">#BB86FC</color>
+    <color name="darkprimaryColorVariant">#6200EE</color>
+    <color name="darkonPrimaryColor">#000000</color>
+
+    <!-- DARK Secondary color -->
+    <color name="darksecondaryColor">#03DAC6</color>
+    <color name="darksecondaryColorVariant">#018786</color>
+    <color name="darkonSecondaryColor">#000000</color>
+
+    <!-- DARK Background colors -->
+    <color name="darkbackgroundColor">#121212</color>
+    <color name="darkonBackgroundColor">#FFFFFF</color>
+
+    <!-- DARK Surface colors -->
+    <color name="darksurfaceColor">#1E1E1E</color>
+    <color name="darkonSurfaceColor">#FFFFFF</color>
+
+    <!-- DARK Button colors -->
+    <color name="darkbuttonBackground">#BB86FC</color>
+    <color name="darkbuttonText">#000000</color>
+    <color name="darktextButtonColor">#BB86FC</color>
+
+    <!-- DARK Text colors -->
+    <color name="darktextPrimary">#FFFFFF</color>
+    <color name="darktextSecondary">#B3B3B3</color>
+
+</resources>

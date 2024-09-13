@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Day 10 – Death of Bhishma"
+            android:textSize="25dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day10"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16sp"
+            android:text="The Pandavas, unable to withstand Bhishma’s prowess, decided to put Shikhandi. Shikhandi’s arrows fell on Bhishma without hindrance. Arjuna positioned himself behind Shikhandi, protecting himself from Bhishma’s attack, and aimed his arrows at the weak points in Bhishma’s armor.
+
+Then the Pandavas surround Bhishma and driving off the Kauravas, pierce Bhishma with many an arrow until no space on his body greater than the breadth of two fingers remains to be seen. Soon, with arrows sticking from every part of his body, the great warrior fell from his chariot. His body did not touch the ground as it was held aloft by the arrows protruding from his body. Bhishma had promised his father, King Shantanu that he would live until Hastinapur was secured from all directions. To keep this promise, Bhishma used the boon of ‘Ichchya Mrityu’ (self-wished death) given to him by his father.                                                                    Both armies stop their battle in honor of the eldest of Bharatas and approach him seeking his advice. The Kauravas and Pandavas gathered around Bhishma at his request and Arjuna gives him a pillow of three shafts to rest his head on and strikes the ground with a blazing arrow to provide him with a cool jet of sweet water.
+
+After the war was over when Hastinapur had become safe from all sides and after giving lessons on politics and Vishnu Sahasranama to the Pandavas. Thus he lies there on his bed of arrows, waiting for the fateful moment, and died on the first day of Uttarayana."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day11"
+                android:text="DAY 11"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

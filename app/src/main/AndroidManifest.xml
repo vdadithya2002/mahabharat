@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MahaBharat"
+        tools:targetApi="31">
+        <activity
+            android:name=".minorcharacters"
+            android:exported="false" />
+        <activity
+            android:name=".othercharacters"
+            android:exported="false" />
+        <activity
+            android:name=".kauravas"
+            android:exported="false" />
+        <activity
+            android:name=".pandavas"
+            android:exported="false" />
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".characters"
+            android:exported="false" />
+        <activity
+            android:name=".day18"
+            android:exported="false" />
+        <activity
+            android:name=".day17"
+            android:exported="false" />
+        <activity
+            android:name=".day16"
+            android:exported="false" />
+        <activity
+            android:name=".day15"
+            android:exported="false" />
+        <activity
+            android:name=".day14"
+            android:exported="false" />
+        <activity
+            android:name=".day13"
+            android:exported="false" />
+        <activity
+            android:name=".day12"
+            android:exported="false" />
+        <activity
+            android:name=".day11"
+            android:exported="false" />
+        <activity
+            android:name=".day10"
+            android:exported="false" />
+        <activity
+            android:name=".day9"
+            android:exported="false" />
+        <activity
+            android:name=".day8"
+            android:exported="false" />
+        <activity
+            android:name=".day7"
+            android:exported="false" />
+        <activity
+            android:name=".day6"
+            android:exported="false" />
+        <activity
+            android:name=".day5"
+            android:exported="false" />
+        <activity
+            android:name=".day4"
+            android:exported="false" />
+        <activity
+            android:name=".day3"
+            android:exported="false" />
+        <activity
+            android:name=".day2"
+            android:exported="false"
+            android:theme="@style/Theme.MahaBharat" />
+        <activity
+            android:name=".day1"
+            android:exported="false" />
+        <activity
+            android:name=".war"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

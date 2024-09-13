@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day 15 – Dhrishtadyumna kills Drona"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day15"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The battle continues through moonrise and sunrise when Drona begins to slaughter the Pandava army. Arjuna and Drona meet in a fierce battle but no side can prevail. Drona then fights both Virata and Drupada, killing them both. Seeing that no one can slay this fierce warrior, Krishna advises that they use deceit to kill him. Yudhishthira reluctantly agrees and Bhima is ordered to kill an elephant named Ashwattaman. Bhima proceeded to kill the elephant and loudly proclaimed that Ashwatthama was dead. Then when he is near Drona, he announces loudly, “I have killed Ashwattaman.” Drona’s legs turn to water, but he cannot believe that a mighty warrior like Ashwattama could be killed by Bhima. So he turns to Yudhisthara and asks him, “Is this true?” Yudhishthira, the ever-truthful replies in the affirmative. Drona is distraught. Overcome, he drops his weapons and goes into meditation to leave the body. He was then killed by Dhrishtadyumna to avenge his father’s death and satisfy his vow. Ashwattama is enraged by his father’s death and fired the Narayanastra against the Pandava army. Krishna tells everyone to lay down their weapons and lie on the ground since this is the only way the weapon can be made harmless. Kunti requests Karna to join the side of the Pandavas, telling him that he is her eldest son. But Karna says he will spare all the Pandavas, except Arjuna."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day16"
+                android:text="DAY 16"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

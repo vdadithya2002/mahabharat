@@ -1,0 +1,205 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pandavas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="The Pandavas"
+            android:textColor="#000000"
+            android:textSize="57sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/pandavas"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Yudhishthira (Dharmaraja)"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/yudhishthria"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Yudhishthira was slender, and had a prominent nose, large eyes and a complexion like that of pure gold. He is also described as a just man, who had correct knowledge of the morality of his own acts and was merciful to surrendering foes."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Bheema"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/bheema"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Bheema is described being plump, long-armed and tall as a full-grown Sala tree. He is also extolled to be strong, well-trained, endued with great might and his superhuman feats had earned him great renown. In a display of ferocity, he bit his lips, and contracted his forehead to bring the two eyebrows together. Bheema is also described to be frightful, who never forgot a foe and was not pacified even after he wreaked his vengeance."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Arjuna"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/arjuna"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Arjuna is praised as the greatest of archers, intelligent, second to none with senses under complete control. Neither lust nor fear nor anger could make him forsake virtue. Though capable of withstanding any foe, he would never commit an act of cruelty."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Nakula"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/nakula"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Nakula was considered by Draupadi as the most handsome person in the whole world. An accomplished master swordsman, he was also versed in every question of morality and profit and endued with high wisdom. He was unflinchingly devoted to his brothers, who in turn regarded him as more valuable than their own lives."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:paddingBottom="8dp"
+            android:text="Sahadeva"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/myImageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/sahadeva"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Sahadeva was heroic, intelligent, wise and no other man was equal unto him in intelligence or in eloquence amid assemblies of the wise. He was the one dearest to Kunti, and intent on doing what is agreeable to Yudhishthira. He is also praised to be always mindful of the duties of Kshatriyas (warrior-class), and would sacrifice his own life than say anything that is opposed to morals."
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34040404"
+            android:onClick="characters"
+            android:text="Back"
+            android:fontFamily="@font/trajanprobold"
+            android:textColorLink="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.821"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+</ScrollView>

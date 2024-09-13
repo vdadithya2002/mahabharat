@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/warphoto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Day 13 – Death of  Abhimanyu"
+            android:textSize="25sp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/mangiolaregular"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day131"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Drona’s target remained the same, which was to capture Yudhishthira. Thus, he arrayed his troops in the Chakra/Padma/Kamala – Formation, a very complex and almost impenetrable formation. Among the Pandavas, only Arjuna and Krishna knew how to penetrate this formation, and in order to prevent them from doing so, the Samsaptakas led by Susharma again challenged Arjuna and kept him busy in a remote part of the battlefield the whole day. Arjuna killed thousands of Samsaptakasa but couldn’t exterminate all of them.                                                                                          On the other side of the battlefield, the remaining four Pandavas and their allies were finding it impossible to break Drona’s Chakra formation. Yudhishthira instructed Abhimanyu, (the son of Arjuna and Subhadra) to break the Chakra/Padma formation.
+
+While Abhimanyu was still in his mother’s womb, Arjuna taught Abhimanyu how to break and enter the Chakra Vyuha. Still, before explaining how to exit the Chakra Vyuha, Arjuna was interrupted by Krishna (In another story, Abhimanyu’s mother falls asleep while Arjuna was explaining to her). Thus from birth, Abhimanyu only knew how to enter the Chakra Vyuha but didn’t know how to come out of it.                                                                                                             The Pandava heroes followed him to protect him from any potential danger. However, as soon as Abhimanyu entered the formation, King Jayadratha stopped the Pandava warriors. He held at bay the whole Pandava army, thanks to a boon obtained from Lord Shiva, and defeated Bhima and Satyaki.
+
+Inside the Chakra/Kamala formation, Abhimanyu slew tens of thousands of warriors. Some of them included Vrihadvala (the ruler of Kosala), the ruler of Asmaka, Martikavata (the son of Kritavarma), Rukmaratha (the son of Shalya), Shalya’s younger brother, Lakshmana (the son of Duryodhana), and many others. He also managed to defeat great warriors like Drona, Karna, Ashwatthama, Kritavarma, and others.                                                                Facing the prospect of the complete annihilation of their army, the Kaurava commanders devised a strategy to deter Abhimanyu from causing further damage to their force. According to Drona’s instructions, six warriors together attacked Abhimanyu (the warriors included Drona himself, Karna, Kripa, and Kritavarma), and deprived Abhimanyu of his chariot, bow, sword, and shield.
+
+Abhimanyu, however, determined to fight, picked up a mace, smashed Ashwatthma’s chariot (upon which the latter fled), killed one of Shakuni’s brothers and numerous troops, and elephants, and finally encountered the son of Dussasana in a mace-fight. The latter was a strong mace-fighter, and an exhausted Abhimanyu was defeated and killed by his adversary.
+
+That night, Arjuna hears of the dastardly murder of his son and vowed to kill Jayadratha, before the battle ended at sunset, otherwise he would throw himself into the fire.
+
+While Arjuna destroyed the rest of the Shakatavuyha, Vikarna, the third eldest Kaurava, challenged Arjuna to an archery fight."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/day132"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="war"
+                android:text="Back"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34040404"
+                android:onClick="day14"
+                android:text="DAY 14"
+                android:fontFamily="@font/trajanprobold"
+                android:textColorLink="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
